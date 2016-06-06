@@ -1,6 +1,6 @@
 {
   "name": "rmdir-sync",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "rmdir-sync is a module to remove not empty directory for nodejs.",
   "main": "index.js",
   "scripts": {
