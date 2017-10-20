@@ -12,7 +12,6 @@ function rmdirSync(dirpath){
 			if(fs.statSync(curPath).isDirectory()) {
 				rmdirSync(curPath);
 			} else {
-				console.log(curPath);
 				fs.unlinkSync(curPath);
 			}
 		});
